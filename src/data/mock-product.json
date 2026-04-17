@@ -1,0 +1,652 @@
+{
+    "code": 200,
+    "message": "สำเร็จ",
+    "products": [
+        {
+            "id": "product-001",
+            "name": "ขนมปังไส้ถั่วแดง 80 กรัม Mini",
+            "stock": 414,
+            "min_stock": 16,
+            "max_stock": 911,
+            "unit": "แพ็ค",
+            "piece_per_package": 1,
+            "piece_per_tray": 20,
+            "station": {
+                "1": 180,
+                "2": 100,
+                "3": 45
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-002",
+            "name": "ขนมปังไส้สังขยา 100 กรัม Big",
+            "stock": 78,
+            "min_stock": 39,
+            "max_stock": 1619,
+            "unit": "กล่อง",
+            "piece_per_package": 12,
+            "piece_per_tray": 24,
+            "station": {
+                "1": 180,
+                "2": 100,
+                "3": 90
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-003",
+            "name": "ครัวซองต์เนยสด 120 กรัม Family Pack",
+            "stock": 67,
+            "min_stock": 30,
+            "max_stock": 1611,
+            "unit": "แพ็ค",
+            "piece_per_package": 2,
+            "piece_per_tray": 18,
+            "station": {
+                "1": 200,
+                "2": 120,
+                "3": 45
+            },
+            "factory_id": 2,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-004",
+            "name": "เดนิชผลไม้ 250 กรัม CJ",
+            "stock": 752,
+            "min_stock": 2,
+            "max_stock": 956,
+            "unit": "กล่อง",
+            "piece_per_package": 12,
+            "piece_per_tray": 20,
+            "station": {
+                "1": 180,
+                "2": 100,
+                "3": 90
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-005",
+            "name": "แซนด์วิชทูน่า 75 กรัม Mini",
+            "stock": 79,
+            "min_stock": 25,
+            "max_stock": 1070,
+            "unit": "กล่อง",
+            "piece_per_package": 6,
+            "piece_per_tray": 20,
+            "station": {
+                "1": 150,
+                "2": 120,
+                "3": 45
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-006",
+            "name": "เค้กกล้วยหอม 80 กรัม Big",
+            "stock": 799,
+            "min_stock": 10,
+            "max_stock": 1577,
+            "unit": "ชิ้น",
+            "piece_per_package": 12,
+            "piece_per_tray": 24,
+            "station": {
+                "1": 120,
+                "2": 90,
+                "3": 60
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-007",
+            "name": "ขนมปังโฮลวีท 100 กรัม Family Pack",
+            "stock": 84,
+            "min_stock": 48,
+            "max_stock": 1923,
+            "unit": "กล่อง",
+            "piece_per_package": 2,
+            "piece_per_tray": 10,
+            "station": {
+                "1": 180,
+                "2": 120,
+                "3": 45
+            },
+            "factory_id": 2,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-008",
+            "name": "โดนัทน้ำตาล 120 กรัม CJ",
+            "stock": 85,
+            "min_stock": 9,
+            "max_stock": 1724,
+            "unit": "แพ็ค",
+            "piece_per_package": 1,
+            "piece_per_tray": 18,
+            "station": {
+                "1": 120,
+                "2": 90,
+                "3": 90
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-009",
+            "name": "พายไก่ 250 กรัม Mini",
+            "stock": 440,
+            "min_stock": 14,
+            "max_stock": 1015,
+            "unit": "แพ็ค",
+            "piece_per_package": 2,
+            "piece_per_tray": 10,
+            "station": {
+                "1": 200,
+                "2": 150,
+                "3": 90
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-010",
+            "name": "ขนมปังไส้กรอก 75 กรัม Big",
+            "stock": 472,
+            "min_stock": 8,
+            "max_stock": 1348,
+            "unit": "ชิ้น",
+            "piece_per_package": 12,
+            "piece_per_tray": 10,
+            "station": {
+                "1": 200,
+                "2": 150,
+                "3": 45
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-011",
+            "name": "ขนมปังเนยสด 80 กรัม Family Pack",
+            "stock": 735,
+            "min_stock": 16,
+            "max_stock": 1852,
+            "unit": "แพ็ค",
+            "piece_per_package": 6,
+            "piece_per_tray": 12,
+            "station": {
+                "1": 120,
+                "2": 150,
+                "3": 45
+            },
+            "factory_id": 2,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-012",
+            "name": "แยมโรลวานิลลา 100 กรัม CJ",
+            "stock": 602,
+            "min_stock": 9,
+            "max_stock": 951,
+            "unit": "ชิ้น",
+            "piece_per_package": 12,
+            "piece_per_tray": 24,
+            "station": {
+                "1": 150,
+                "2": 100,
+                "3": 45
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-013",
+            "name": "บราวนี่ช็อกโกแลต 120 กรัม Mini",
+            "stock": 688,
+            "min_stock": 15,
+            "max_stock": 1309,
+            "unit": "แพ็ค",
+            "piece_per_package": 6,
+            "piece_per_tray": 20,
+            "station": {
+                "1": 200,
+                "2": 90,
+                "3": 60
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-014",
+            "name": "คุกกี้เนย 250 กรัม Big",
+            "stock": 407,
+            "min_stock": 45,
+            "max_stock": 1911,
+            "unit": "ชิ้น",
+            "piece_per_package": 12,
+            "piece_per_tray": 10,
+            "station": {
+                "1": 150,
+                "2": 90,
+                "3": 45
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-015",
+            "name": "เค้กส้ม 75 กรัม Family Pack",
+            "stock": 340,
+            "min_stock": 25,
+            "max_stock": 1346,
+            "unit": "กล่อง",
+            "piece_per_package": 6,
+            "piece_per_tray": 24,
+            "station": {
+                "1": 180,
+                "2": 100,
+                "3": 45
+            },
+            "factory_id": 2,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-016",
+            "name": "ขนมปังหมูหยอง 80 กรัม CJ",
+            "stock": 787,
+            "min_stock": 39,
+            "max_stock": 1561,
+            "unit": "แพ็ค",
+            "piece_per_package": 12,
+            "piece_per_tray": 18,
+            "station": {
+                "1": 150,
+                "2": 150,
+                "3": 45
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-017",
+            "name": "ขนมปังไส้เผือก 100 กรัม Mini",
+            "stock": 798,
+            "min_stock": 26,
+            "max_stock": 1013,
+            "unit": "ชิ้น",
+            "piece_per_package": 2,
+            "piece_per_tray": 20,
+            "station": {
+                "1": 200,
+                "2": 120,
+                "3": 45
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-018",
+            "name": "เอแคลร์ 120 กรัม Big",
+            "stock": 149,
+            "min_stock": 3,
+            "max_stock": 1852,
+            "unit": "กล่อง",
+            "piece_per_package": 6,
+            "piece_per_tray": 10,
+            "station": {
+                "1": 120,
+                "2": 150,
+                "3": 45
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-019",
+            "name": "ชูครีม 250 กรัม Family Pack",
+            "stock": 142,
+            "min_stock": 9,
+            "max_stock": 1753,
+            "unit": "ชิ้น",
+            "piece_per_package": 12,
+            "piece_per_tray": 10,
+            "station": {
+                "1": 150,
+                "2": 120,
+                "3": 45
+            },
+            "factory_id": 2,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-020",
+            "name": "ทาร์ตไข่ 75 กรัม CJ",
+            "stock": 273,
+            "min_stock": 39,
+            "max_stock": 1354,
+            "unit": "ชิ้น",
+            "piece_per_package": 2,
+            "piece_per_tray": 20,
+            "station": {
+                "1": 150,
+                "2": 100,
+                "3": 90
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-021",
+            "name": "ขนมปังหน้าเนยน้ำตาล 80 กรัม Mini",
+            "stock": 772,
+            "min_stock": 27,
+            "max_stock": 1514,
+            "unit": "ชิ้น",
+            "piece_per_package": 12,
+            "piece_per_tray": 24,
+            "station": {
+                "1": 180,
+                "2": 90,
+                "3": 90
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-022",
+            "name": "โดนัทช็อกโกแลต 100 กรัม Big",
+            "stock": 536,
+            "min_stock": 21,
+            "max_stock": 1028,
+            "unit": "กล่อง",
+            "piece_per_package": 12,
+            "piece_per_tray": 24,
+            "station": {
+                "1": 180,
+                "2": 120,
+                "3": 90
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-023",
+            "name": "ขนมปังไส้ครีม 120 กรัม Family Pack",
+            "stock": 600,
+            "min_stock": 36,
+            "max_stock": 1264,
+            "unit": "กล่อง",
+            "piece_per_package": 1,
+            "piece_per_tray": 10,
+            "station": {
+                "1": 200,
+                "2": 150,
+                "3": 45
+            },
+            "factory_id": 2,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-024",
+            "name": "เค้กช็อกโกแลตหน้านิ่ม 250 กรัม CJ",
+            "stock": 262,
+            "min_stock": 39,
+            "max_stock": 855,
+            "unit": "กล่อง",
+            "piece_per_package": 12,
+            "piece_per_tray": 20,
+            "station": {
+                "1": 120,
+                "2": 90,
+                "3": 90
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-025",
+            "name": "วุ้นกะทิ 75 กรัม Mini",
+            "stock": 397,
+            "min_stock": 9,
+            "max_stock": 1774,
+            "unit": "กล่อง",
+            "piece_per_package": 2,
+            "piece_per_tray": 12,
+            "station": {
+                "1": 150,
+                "2": 100,
+                "3": 60
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-026",
+            "name": "ขนมชั้น 80 กรัม Big",
+            "stock": 380,
+            "min_stock": 19,
+            "max_stock": 1305,
+            "unit": "แพ็ค",
+            "piece_per_package": 6,
+            "piece_per_tray": 12,
+            "station": {
+                "1": 150,
+                "2": 90,
+                "3": 90
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-027",
+            "name": "ทองหยอด 100 กรัม Family Pack",
+            "stock": 111,
+            "min_stock": 41,
+            "max_stock": 1111,
+            "unit": "ชิ้น",
+            "piece_per_package": 1,
+            "piece_per_tray": 12,
+            "station": {
+                "1": 150,
+                "2": 90,
+                "3": 60
+            },
+            "factory_id": 2,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-028",
+            "name": "ฝอยทอง 120 กรัม CJ",
+            "stock": 534,
+            "min_stock": 28,
+            "max_stock": 1941,
+            "unit": "กล่อง",
+            "piece_per_package": 12,
+            "piece_per_tray": 12,
+            "station": {
+                "1": 180,
+                "2": 150,
+                "3": 45
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-029",
+            "name": "เม็ดขนุน 250 กรัม Mini",
+            "stock": 700,
+            "min_stock": 35,
+            "max_stock": 1560,
+            "unit": "ชิ้น",
+            "piece_per_package": 1,
+            "piece_per_tray": 12,
+            "station": {
+                "1": 180,
+                "2": 100,
+                "3": 60
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-030",
+            "name": "ขนมเปี๊ยะถั่วไข่เค็ม 75 กรัม Big",
+            "stock": 78,
+            "min_stock": 23,
+            "max_stock": 1499,
+            "unit": "กล่อง",
+            "piece_per_package": 6,
+            "piece_per_tray": 24,
+            "station": {
+                "1": 200,
+                "2": 120,
+                "3": 90
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-031",
+            "name": "กะหรี่ปั๊บไก่ 80 กรัม Family Pack",
+            "stock": 739,
+            "min_stock": 21,
+            "max_stock": 850,
+            "unit": "ชิ้น",
+            "piece_per_package": 6,
+            "piece_per_tray": 24,
+            "station": {
+                "1": 120,
+                "2": 90,
+                "3": 45
+            },
+            "factory_id": 2,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-032",
+            "name": "ซาลาเปาไส้หมูสับ 100 กรัม CJ",
+            "stock": 125,
+            "min_stock": 50,
+            "max_stock": 1857,
+            "unit": "กล่อง",
+            "piece_per_package": 1,
+            "piece_per_tray": 10,
+            "station": {
+                "1": 120,
+                "2": 90,
+                "3": 60
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-033",
+            "name": "ซาลาเปาไส้ครีม 120 กรัม Mini",
+            "stock": 370,
+            "min_stock": 31,
+            "max_stock": 1519,
+            "unit": "กล่อง",
+            "piece_per_package": 2,
+            "piece_per_tray": 18,
+            "station": {
+                "1": 120,
+                "2": 100,
+                "3": 45
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        },
+        {
+            "id": "product-034",
+            "name": "ขนมจีบกุ้ง 250 กรัม Big",
+            "stock": 763,
+            "min_stock": 43,
+            "max_stock": 1112,
+            "unit": "ชิ้น",
+            "piece_per_package": 1,
+            "piece_per_tray": 10,
+            "station": {
+                "1": 150,
+                "2": 150,
+                "3": 90
+            },
+            "factory_id": 1,
+            "CreatedAt": "2025-02-05T03:39:03+07:00",
+            "UpdatedAt": "2025-11-11T12:04:09.24+07:00",
+            "DeletedAt": null
+        }
+    ]
+}
